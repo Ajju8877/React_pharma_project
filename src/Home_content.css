@@ -1,0 +1,32 @@
+.plant_img {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px;
+  justify-content: center;
+}
+.plant_img img {
+  width: 300px;
+}
+.plant_intro {
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid #aaa;
+  border-radius: 10px;
+  align-items: center;
+  padding: 10px;
+  margin-right: 10px;
+  width: 500px;
+}
+.plant_intro h3 {
+  margin: 20px;
+}
+.plant_intro p {
+  margin: 10px;
+  font-size: 13px;
+}
+.plant_intro img {
+  position: relative;
+  max-width: 200px;
+  margin: auto;
+}
